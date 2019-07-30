@@ -11,5 +11,5 @@ EOF
 
 sudo apt-get update -y &&sudo apt-get install shadowsocks-qt5 -y &&
 sudo apt-get install python-pip -y && 
-sudo pip install genpac -y
+sudo pip install genpac 
 
