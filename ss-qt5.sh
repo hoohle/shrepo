@@ -9,7 +9,7 @@ deb http://ppa.launchpad.net/hzwhuang/ss-qt5/ubuntu xenial main
 deb-src http://ppa.launchpad.net/hzwhuang/ss-qt5/ubuntu xenial main
 EOF
 
-sudo apt-get update &&sudo apt-get install shadowsocks-qt5 -y
+sudo apt-get update -y &&sudo apt-get install shadowsocks-qt5 -y &&
 sudo apt-get install python-pip -y && 
 sudo pip install genpac -y
 
