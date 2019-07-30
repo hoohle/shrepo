@@ -1,7 +1,7 @@
 #!/bin/bash
 echo off;
 echo "this is just for ubuntu 16.04 and 18.04"
-sudo apt-add-repository 'ppa:hzwhuang/ss-qt5 xenial main' &&
+sudo apt-add-repository 'ppa:hzwhuang/ss-qt5' &&
 mv /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-bionic.list /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-xenial.list&&
 
 cat > /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-xenial.list <<EOF
