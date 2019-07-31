@@ -1,6 +1,8 @@
 #!/bin/bash
 echo off;
-echo "this is just for ubuntu 16.04 and 18.04" &&
+echo "this is just for ubuntu 16.04 and 18.04 but it seems that used in such as kali parrot and so on based on debian " &&
+echo "please input your root password"
+su
 #sudo apt-add-repository 'ppa:hzwhuang/ss-qt5' &&
 #sudo mv /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-bionic.list /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-xenial.list&&
 
